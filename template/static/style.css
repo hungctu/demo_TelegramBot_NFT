@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    background: #000022
+}
+.container {
+    padding: 0;
+}
+
+.tab-title {
+    padding: 20px;
+}
+
+.col-4.product>img {
+    width: max-content;
+    display: block;
+    margin: 0 auto 10px;
+    max-width: inherit;
+    /* border-radius: 50%; */
+}
+
+.col-4.product {
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
+}
+
+span.price-badge {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+
+span.badge.rounded-pill.bg-danger.cart-sum,
+.checkout-sum {
+    font-size: xx-small;
+}
+
+.tab-pane>h2 {
+    margin: 20px auto 30px;
+}
+
+div#staticBackdrop {
+    background: #000000cf;
+    transition-duration: 1s;
+}
+
+div[role="tabpanel"] {
+    padding: 0 10px;
+}
+
+.cart-thumps {
+    width: 80px;
+}
